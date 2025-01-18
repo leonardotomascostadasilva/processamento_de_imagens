@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "name": "Python: app.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/project/main.py",
+            "console": "integratedTerminal",  // Para rodar o app no terminal integrado
+            "env": {
+                "FLASK_APP": "app.py",
+                "FLASK_ENV": "development"  // Para habilitar o modo de desenvolvimento (opcional)
+            },
+            "envFile": "${workspaceFolder}/.env",  // Se você tiver um arquivo .env com variáveis de ambiente
+            "justMyCode": true
+        }
+    ]
+}
