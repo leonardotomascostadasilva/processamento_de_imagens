@@ -95,3 +95,22 @@ O projeto segue o padrão Clean Architecture, com os seguintes módulos:
 - infrastructure: Contém a lógica de acesso ao banco de dados e configurações.
 - webapi: Define as rotas HTTP e a interface com o cliente.
 
+
+# Instalação
+
+- `pip install Flask`
+- `pip install SQLAlchemy`
+- `pip install psycopg2`
+- `pip install Pillow`
+- `pip install Flask-SQLAlchemy`
+- `pip install python-dotenv`
+- `pip install requests`
+
+```bash
+pip install -r requirements.txt
+```
+
+# Essenciais
+```bash
+sudo apt-get install libpq-dev
+```

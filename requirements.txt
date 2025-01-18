@@ -1,0 +1,7 @@
+Flask
+SQLAlchemy
+psycopg2
+Pillow
+Flask-SQLAlchemy
+python-dotenv
+requests
